@@ -1,4 +1,34 @@
 {
   "version": 2,
-  "$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+  "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
+          "name": "Poppins",
+          "slug": "poppins",
+          "fontFamily": "Poppins, Helvetica Neue, Arial, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400 700",
+              "src": "https://fonts.googleapis.com/css?family=Poppins:400,700"
+            }
+          ]
+        },
+        {
+          "name": "Aleo",
+          "slug": "aleo",
+          "fontFamily": "Aleo, Georgia, serif",
+          "fontFace": [
+            {
+              "fontFamily": "Aleo",
+              "fontWeight": "400 700",
+              "src": "https://fonts.googleapis.com/css?family=Aleo:400,700"
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
