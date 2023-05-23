@@ -1,7 +1,86 @@
 {
-  "version": 2,
   "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+  "version": 2,
   "settings": {
+    "appearanceTools": true,
+    "color": {
+      "custom": true,
+      "customGradient": true,
+      "palette": [
+        {
+          "name": "Primary (Sun Yellow)",
+          "slug": "primary-sun-yellow",
+          "color": "#ffdc28"
+        },
+        {
+          "name": "Accent Dark (Blue Gem)",
+          "slug": "accent-dark-blue-gem",
+          "color": "#3017a1"
+        },
+        {
+          "name": "Accent Bright (Hollywood Cerise)",
+          "slug": "accent-bright-hollywood-cerise",
+          "color": "#de0093"
+        },
+        {
+          "name": "Neutral Darkest (Baltic Sea)",
+          "slug": "neutral-darkest-baltic-sea",
+          "color": "#23232d"
+        },
+        {
+          "name": "Neutral Dark (River Bed)",
+          "slug": "neutral-dark-river-bed",
+          "color": "#4b4b5d"
+        },
+        {
+          "name": "Neutral Regular Dark (Jet Grey)",
+          "slug": "neutral-regular-dark-jet-grey",
+          "color": "#6b6b84"
+        },
+        {
+          "name": "Neutral Regular (Grey Suit)",
+          "slug": "neutral-regular-grey-suit",
+          "color": "#c1c1d6"
+        },
+        {
+          "name": "Neutral Regular Light (Link Water)",
+          "slug": "neutral-regular-light-link-water",
+          "color": "#dfdfec"
+        },
+        {
+          "name": "Neutral Light (White Smoke)",
+          "slug": "neutral-light-white-smoke",
+          "color": "#f4f4fc"
+        },
+        {
+          "name": "Neutral Lightest (Snow Drift))",
+          "slug": "neutral-lightest-snow-drift",
+          "color": "#fafafe"
+        }
+      ],
+      "gradients": [
+        {
+          "name": "Sunrise",
+          "slug": "sunrise",
+          "gradient": "linear-gradient(135deg, #300068 38.28%, #e65f35 100%)"
+        },
+        {
+          "name": "Sunset",
+          "slug": "sunset",
+          "gradient": "linear-gradient(135deg, #ef13ad 0%, #300068 100%)"
+        },
+        {
+          "name": "After Hours",
+          "slug": "after-hours",
+          "gradient": "linear-gradient(135deg, #2b017b 0%, #29b2ff 100%)"
+        },
+        {
+          "name": "Midnight",
+          "slug": "midnight",
+          "gradient": "linear-gradient(135deg, #3017a1 0%, #00e0c3 100%)"
+        }
+      ]
+    },
     "typography": {
       "fontFamilies": [
         {
@@ -29,6 +108,10 @@
           ]
         }
       ]
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1100px"
     }
   }
 }
