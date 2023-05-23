@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8bdbad75f2fe586b877817a8dc84effb",
+    "packages": [
+        {
+            "name": "olliewp/ollie",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OllieWP/ollie.git",
+                "reference": "33ef209e057ea1df33cf4184e2f8174817d6b520"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OllieWP/ollie/zipball/33ef209e057ea1df33cf4184e2f8174817d6b520",
+                "reference": "33ef209e057ea1df33cf4184e2f8174817d6b520",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wptrt/wpthemereview": "^0.2.1"
+            },
+            "type": "wordpress-theme",
+            "scripts": {
+                "lint": [
+                    "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor ."
+                ],
+                "wpcs:scan": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/vendor/* --standard=WordPress-Extra ."
+                ],
+                "wpcs:fix": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --ignore=*/vendor/* --standard=WordPress-Extra ."
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mike McAlister",
+                    "email": "m@mikemcalister.com"
+                }
+            ],
+            "description": "A WordPress block theme by Mike McAlister",
+            "support": {
+                "source": "https://github.com/OllieWP/ollie/tree/develop",
+                "issues": "https://github.com/OllieWP/ollie/issues"
+            },
+            "time": "2023-05-17T18:56:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "olliewp/ollie": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

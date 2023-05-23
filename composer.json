@@ -1,0 +1,21 @@
+{
+  "name": "pantheon-se/catalyst-theme",
+  "description": "A WordPress block theme based on Ollie.",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Kyle Taylor",
+      "email": "kyle.taylor@pantheon.io"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://live-dunder-packagist.pantheonsite.io"
+    }
+  ],
+  "require": {
+    "olliewp/ollie": "dev-develop"
+  }
+}
